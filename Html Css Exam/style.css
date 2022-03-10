@@ -1,0 +1,265 @@
+
+header {
+  background-color: white;
+  list-style: none;
+  margin-top: 4rem;
+}
+.a1
+{
+  font-size: 1.5rem;
+  color: black;
+  margin-right: 2rem;
+}
+.a2{
+  font-size: 1.5rem;
+  color: rgb(180, 90, 231);
+  margin-right: 2rem;
+}
+img {
+  width: 8rem;
+}
+.logo {
+  margin-left: 2%;
+  margin-right: 63rem;
+  width: 14rem;
+}
+
+.row1 {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 2%;
+  width: 105rem;
+}
+.p1 {
+  font-size: 1rem;
+  color: brown;
+}
+.p2 {
+  font-size: 8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.p3 {
+
+  font-size: 2rem;
+margin-bottom: 7rem;
+}
+.p4 {
+  width: 30rem;
+}
+.button {
+background-color: white;
+border-radius: 3rem;
+border-color: green;
+font-size: 2rem;
+}
+.h2 {
+  width: 60rem;
+  margin-right: 2%;
+}
+
+
+
+.free {
+  border-radius: 2rem;
+  background-image: url(images/background.svg);
+  padding: 4rem 2rem 1rem 1rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-repeat: no-repeat;
+  background-size: 105rem;
+  
+  
+  
+}
+.free .nft{
+  font-size: 3rem;
+}
+.companies {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 8rem;
+
+}
+.companies2 {
+margin-left: 16rem;
+}
+.companies3 {
+margin-left: 16rem;
+}
+.companies4 {
+  margin-left: 16rem;
+  margin-right: 16rem;
+
+}
+.le {
+  margin-left: 2%;
+  margin-top: 5rem;
+}
+.le .super{
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.le .opeansea{
+
+  font-size: 1.5rem;
+  color: rgb(105, 93, 93);
+}
+
+.tablets {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 4%;
+  margin-top: 5rem;
+  margin-bottom: 20rem;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.ntf{
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 130%;
+  background-color: rgb(164, 164, 170);
+}
+.td1 {
+  font-size: 2rem;
+}
+.ntf .eth {
+  width: 0.5rem;
+ 
+}
+td .eth1 {
+display: flex;
+  font-size: rem;
+}
+
+th {
+font-size: 0.8rem;
+}
+.ntfs {
+  margin-bottom: 0rem;
+  width: 130%;
+}
+.ntfs1 {
+  margin-right: 9rem;
+}
+.ntfs2 {
+  margin-right: 9rem;
+}
+.ntfs3 {
+  margin-right: 9rem;
+}
+.h3 {
+  width: 20rem;
+  margin-right: 3rem;
+}
+.about {
+  display: flex;
+  margin-top: 5rem;
+}
+.row2 {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 2%;
+  width: 100rem;
+  
+}
+.p5 {
+  font-size: 1rem;
+  color: brown;
+}
+.p6 {
+  font-size: 8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.p7 {
+  color: rgb(165, 164, 170);
+width: 50rem;
+  font-size: 2rem;
+margin-bottom: 7rem;
+}
+.p8 {
+  width: 30rem;
+}
+.h3 {
+  margin-right: 5rem;
+  width: 200rem;
+}
+.h4 {
+  width: 20rem;
+  margin-right: 2%;
+}
+.ul1 {
+  list-style-type: none;
+  margin-right: 45rem;
+  font-size: 1.5rem;
+}
+.ul2 {
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+li {
+  margin-bottom: 1rem;
+}
+.copyright {
+  display: flex;
+}
+.p10 {
+  color: rgb(165, 164, 170);
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  font-size: 1.4rem;
+  margin-left: 2%;
+  margin-right: 70rem;
+}
+.p11 {
+  color: rgb(165, 164, 170);
+  margin-top: 5rem;
+  font-size: 1.4rem;
+}
+
+
+@media only screen and (max-width: 360px) {
+  .a1 .a2 {
+    text-decoration: none;
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+      position: relative;
+    
+  }
+  .companies {
+    display: grid;
+    grid-gap: 1px;
+    padding: 1px;
+    grid-template-areas: 
+    "companies3 companies4 companies5"
+    "companies3 companies4 companies5"
+    "companies2 companies1 companies5"
+    "companies2 companies1 companies5"
+    ;
+  }
+  .companies1 {
+  grid-area: companie1;
+  }
+  .companies2 {
+  grid-area: companies2;
+  }
+  .companies3 {
+  grid-area: companies3;  
+  }
+  .companies4 {
+  grid-area: companies4;
+  }
+  .companies5 {
+   grid-area: companies5;
+  }
+}
+  
+
+    
+/*# sourceMappingURL=style.css.map */
